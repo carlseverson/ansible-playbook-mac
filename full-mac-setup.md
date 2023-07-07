@@ -10,32 +10,16 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
 
   - Install Ansible (following the guide in [README.md](README.md))
   - **Sign in in App Store** (since `mas` can't sign in automatically)
-  - Clone mac-dev-playbook to the Mac: `git clone git@github.com:geerlingguy/mac-dev-playbook.git`
+  - Clone this repo 
   - Drop `config.yml` from `~/Dropbox/Apps/Config` to the playbook (copy over the network or using a USB flash drive).
   - Run the playbook with `--skip-tags post`.
     - If there are errors, you may need to finish up other tasks like installing 'old-fashioned' apps first (since I try to place Photoshop in the Dock and it can't be installed automatically). Then, run the playbook again ;)
   - Start Synchronization tasks:
     - Open Photos and make sure iCloud sync options are correct
     - Open Music, make sure computer is authorized, and set Library sync options
-    - Open Dropbox, sign in, and set up sync
-  - Install old-fashioned apps:
-    - Install [Creative Cloud](https://creativecloud.adobe.com/apps/download/creative-cloud)
-      - Install Photoshop/Illustrator manually
-    - (If required:)
-      - Install [Elgato Stream Deck](https://www.elgato.com/en/downloads)
-        - Open Livestream profile inside `~/Dropbox/Apps/Config/Stream Deck`
-      - Install [Elgato Key Light Air (Control Center)](https://www.elgato.com/en/downloads)
-      - Install [Autodesk Fusion 360](https://www.autodesk.com)
-      - Install Microsoft Office Home & Student 2019 (https://account.microsoft.com/services/)
-      - Install [Fritzing](https://fritzing.org/download/)
-      - Install Meshmixer (but it looks like it's gone now!)
-  - Configure FastMail account:
-    - Log into Fastmail
-    - Go to settings, go to the setup page for macOS Mail
-    - Download the profile and double click to install
-    - Head to the 'Profiles' System Preference pane and click install
-  - Open Calendar and enable personal  Google CalDAV account (you have to manually sign in).
-  - Manually copy `~/Development` folder from another Mac (to save time).
+
+
+
   - Manual settings to automate someday:
     - System Preferences:
       - Accessibility > Display > Reduce transparency
