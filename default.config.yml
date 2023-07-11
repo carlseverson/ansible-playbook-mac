@@ -96,6 +96,7 @@ homebrew_cask_apps:
   - iterm2
   - jellyfin
   - jellyfin-media-player
+  - kindle
   - libreoffice
   - maccy
   - papers
@@ -118,7 +119,7 @@ homebrew_cask_apps:
   - zoom
   
 
-
+#Mac App Store installs
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
 mas_email: ""
